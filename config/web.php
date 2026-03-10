@@ -42,14 +42,13 @@ $config = [
             ],
         ],
         'db' => $db,
-        /*
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                's/<code:[A-Za-z0-9]+>' => 'redirect/go',
             ],
         ],
-        */
     ],
     'params' => $params,
 ];
